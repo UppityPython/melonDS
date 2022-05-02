@@ -1681,7 +1681,7 @@ bool LoadROM(const u8* romdata, u32 romlen)
     CartInserted = true;
 
     u32 irversion = 0;
-    if ((gamecode & 0xFF) == 'I')
+    if (0)
     {
         if (((gamecode >> 8) & 0xFF) < 'P')
             irversion = 1; // Active Health / Walk with Me
